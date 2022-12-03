@@ -119,6 +119,10 @@ We have analyzed data with respect to Gender, age and county with the time of th
 
 Here is a link to our visualization solution: https://vivekkvn.github.io/CS424_Final/
 
+Website PNG:
+
+![](img/website.png)
+
 **Conclusion/Insights:**
 
 According to our study, young aged drivers are more involved in crashes that occur at night than older aged people. Due to the similar trend in both genders, we can say that the time of day does not affect the number of crashes of a particular gender. As for the counties in Chicago, a few of the neighborhoods have relatively higher crashes during the day than at night. According to our two new visualizations, gender doesn’t have any effect on the airbag deployment and so does the month of the year. It also shows that the crash rate is almost double of the crash rate in the loop and in the outskirts , it is relatively less during March 2020.

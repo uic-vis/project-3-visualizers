@@ -6,7 +6,40 @@ Traffic crashes have been the main reason for the increase in deaths. There can 
 
 **Data Set Description:**
 
-Each data row represents information about a traffic crash that occurred in Chicago. We have used a subset of our dataset that covers the last 1 year of data on the crashes. We did so since our dataset is too large to fit into Observable. For Final Visualization, we used Traffic - Crashes data.
+We used a dataset with nearly 1.44 million records of traffic crashes reported in Chicago from 2015 to the present. Each data row represents information about a traffic crash that occurred in Chicago. We have used a subset of our dataset that covers the last 1 year of data on the crashes. We did so since our dataset is too large to fit into Observable. For Final Visualization, we used Traffic - Crashes data. The dataset we are using contains 30 attributes in total in which a large percentage is categorical data and the rest is numerical data.
+
+The metadata of our project and their description:
+
+**Person_ID:** Unique identifier for each person starting with person
+type. Data type -- Categorical
+
+**Person_Type:** Type of roadway user involved in the crash. Data Type
+-- Categorical
+
+**Vehicle_ID:** The corresponding CRASH_UNIT_ID from the Vehicles
+dataset. Data Type: Categorical
+
+**Crash_Date:** Date and Time as entered by the reporting officer on the
+day of the crash. Data Type: Timestamp
+
+**Sex:** The gender of the person. Data Type -- Categorical and
+
+**Age:** Age of the person. Data Type - Number.
+
+**Safety_Equipment:** Safety equipment used by the vehicle occupant in a
+crash. Data Type -- Categorical.
+
+**Airbag_Deployed:** Whether the vehicle occupant's airbag was deployed
+due to the crash. Data Type -- Categorical.
+
+**Injury_Classification:** Severity of injury sustained by the person in
+the crash. Data Type -- Categorical.
+
+We have decided to drop around 10 of the attributes in the dataset since
+they have a lot of null and missing values. Some of them are
+**Pedpedal_action, Pedpedal_Visibility, Pedpedal_location,
+BAC_result_value, cell_phone_use.**
+
 
 **Initial Questions: (Recap)**
 

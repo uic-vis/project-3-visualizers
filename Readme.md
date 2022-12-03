@@ -67,6 +67,8 @@ We used a subset of the dataset since our dataset is large. We see fit to use th
 
 **Observation:** The bar graph shows that the average age of the person involved in a crash increases as the day progresses and decreases at night. Therefore, young drivers are more involved in night crashes and older people are more involved in daytime crashes.
 
+**Design Choice** : We chose bar graph to get the value of Average Age for each hour and also find a pattern of increase/decrease compare to previous values.
+
 **Q2: What effect does the time of the day have on the gender involved in a crash?**
 
 ![](img/Aspose.Words.f7598c5b-c390-4828-b4a1-a8743c4862aa.002.png)
@@ -87,6 +89,8 @@ We used a subset of the dataset since our dataset is large. We see fit to use th
 
 **Observation :** Though the line graph shows us that the number of males involved in crashes is more than females, the trend of both men and women is similar in all 3 cases. Therefore, we can say there is not much effect of the time of the crash on gender.
 
+**Design Choice** : We chose line chart to get the overall trend.
+
 **Q3: What effect does the time of the day have on crashes in every county?**
 
 ![](img/Aspose.Words.f7598c5b-c390-4828-b4a1-a8743c4862aa.006.png)
@@ -103,6 +107,8 @@ We used a subset of the dataset since our dataset is large. We see fit to use th
 
 **Observation:** The information retrieved from the Choropleth map shows us that few of the counties have more accidents in daylight conditions than at night. Counties - 60623 and 60629 have an equally high number of crashes during the day and night. This may be due to more traffic, road conditions, and population. etc
 
+**Design Choice** : We chose Choropleth map to show the spatial data and compare number of crashes in various neighborhoods in Chicago
+
 
 
 **New Visualizations**
@@ -114,6 +120,8 @@ We used a subset of the dataset since our dataset is large. We see fit to use th
 Here, we used a stacked bar chart to represent the action of the airbag deployment in crashes throughout every month. We can see that all the different categories (airbag classification) are consistent except for in a few cases. We have also added interactivity that lets us click on a section, which shows the number of crashes related to a gender, which is consistent among all the sections. Therefore, we can conclude that gender does not have any effect on air bag deployment and also month of year has minimal effect on air bag deployment.
 
 The attributes we have used in this visualization are number of crashes, month, and airbag deployed.
+
+**Design Choice** : We chose stacked bar chart to display the air bag classification data on the normal bar chart data.
 
 ![](img/Aspose.Words.f7598c5b-c390-4828-b4a1-a8743c4862aa.009.png)
 
@@ -145,6 +153,7 @@ As we hover over the regions on the map, we can see a blue outline around that r
 
 For interactivity, By zooming on the map, Select a marker which is the location of the marker and the hour of the accident gets updates in the (Age vs Hour of the Day)bar graph shown in the first page. The bar graph gets updated at the end of the page.
 
+**Design Choice** : We chose Leaflet map to display accident on the map with street names.
 
 **Initial Findings:**
 
